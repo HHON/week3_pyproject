@@ -1,0 +1,63 @@
+Start to run Python Script
+
+Partial credentials found in shared-credentials-file, missing: aws_secret_access_key
+Reading the API...
+API Reading Done!
+Building the dataframe...
+['Siemens', 'Bank of America', 'Adyen', 'Adyen', 'Bank of America', 'Siemens', 'Celonis', 'Brilliant Earth', 'Samsara Inc.', 'Siemens', 'Bank of America', 'Siemens', 'Siemens', 'Cisco Meraki', 'Bank of America', 'Cisco Meraki', 'Siemens', 'Siemens', 'Philips', 'Siemens']
+{'company': ['Siemens', 'Bank of America', 'Adyen', 'Adyen', 'Bank of America', 'Siemens', 'Celonis', 'Brilliant Earth', 'Samsara Inc.', 'Siemens', 'Bank of America', 'Siemens', 'Siemens', 'Cisco Meraki', 'Bank of America', 'Cisco Meraki', 'Siemens', 'Siemens', 'Philips', 'Siemens']}
+['Środa Wielkopolska, Poland', 'Providence, RI', 'San Francisco, CA', 'Tokyo, Japan', 'Wayne, PA', 'Szeged, Hungary', 'Gloversville, NY', 'Charlotte, NC', 'Flexible / Remote', 'Beijing, China', 'West Valley City, UT', 'Bellevue, WA', 'Luzern, Switzerland', 'Athens, Greece', 'Rochester, MA', 'Netanya, Israel', 'Erlangen, Germany', 'Braşov, Romania', 'Bothell, WA', 'Bend, OR']
+['Team Lead Cloud Success Architecture', 'Relationship Banker - Washington Park Financial Center', 'Strategic Finance Business Partner', 'Senior Sales Manager, Tokyo', 'Financial Center Manager - Wayne Financial Center', 'evosoft - Senior C# developer', 'Senior Value Engineer- Life Sciences', 'Customer Experience Assistant, Retail Sales', 'Account Development Representative - EST/CST', '召募令！西门子神秘岛探索之旅- 8月夏季峰会 (北京总部) ', 'Market Financial Center Manager - Utah North Market', 'DOD SkillBridge Internship - Technical Sales - Seattle, WA', 'Energy / Performance Engineer 60-100%', 'Sales Specialist Collaboration - Greece', 'Private Wealth Client Associate', 'Backend/ Physical Design Engineer', 'Cyber Security Expert (w/m/d)', 'Junior Firmware Developer', 'Product Manager, Emergency Care', 'Regional Sales Professional - EMS ADMS DERMS (remote West Coast)']
+['external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external', 'external']
+['2023-05-31T23:46:50Z', '2023-09-19T23:22:43Z', '2023-10-03T23:07:23Z', '2023-09-21T10:06:03Z', '2023-10-25T23:20:15Z', '2023-04-21T23:39:34Z', '2023-11-01T23:07:15Z', '2023-10-11T23:02:31Z', '2023-10-19T23:07:19Z', '2023-03-30T23:46:15Z', '2023-11-01T23:18:49Z', '2023-04-29T23:35:09Z', '2023-03-23T23:49:17Z', '2023-06-27T10:15:46Z', '2023-09-22T23:35:41Z', '2023-06-09T17:20:23Z', '2023-04-17T23:37:42Z', '2023-01-04T23:36:15Z', '2023-10-11T12:15:31Z', '2023-03-09T23:52:57Z']
+        publication date  job type  ...                    location          company
+0   2023-05-31T23:46:50Z  external  ...  Środa Wielkopolska, Poland          Siemens
+1   2023-09-19T23:22:43Z  external  ...              Providence, RI  Bank of America
+2   2023-10-03T23:07:23Z  external  ...           San Francisco, CA            Adyen
+3   2023-09-21T10:06:03Z  external  ...                Tokyo, Japan            Adyen
+4   2023-10-25T23:20:15Z  external  ...                   Wayne, PA  Bank of America
+5   2023-04-21T23:39:34Z  external  ...             Szeged, Hungary          Siemens
+6   2023-11-01T23:07:15Z  external  ...            Gloversville, NY          Celonis
+7   2023-10-11T23:02:31Z  external  ...               Charlotte, NC  Brilliant Earth
+8   2023-10-19T23:07:19Z  external  ...           Flexible / Remote     Samsara Inc.
+9   2023-03-30T23:46:15Z  external  ...              Beijing, China          Siemens
+10  2023-11-01T23:18:49Z  external  ...        West Valley City, UT  Bank of America
+11  2023-04-29T23:35:09Z  external  ...                Bellevue, WA          Siemens
+12  2023-03-23T23:49:17Z  external  ...         Luzern, Switzerland          Siemens
+13  2023-06-27T10:15:46Z  external  ...              Athens, Greece     Cisco Meraki
+14  2023-09-22T23:35:41Z  external  ...               Rochester, MA  Bank of America
+15  2023-06-09T17:20:23Z  external  ...             Netanya, Israel     Cisco Meraki
+16  2023-04-17T23:37:42Z  external  ...           Erlangen, Germany          Siemens
+17  2023-01-04T23:36:15Z  external  ...             Braşov, Romania          Siemens
+18  2023-10-11T12:15:31Z  external  ...                 Bothell, WA          Philips
+19  2023-03-09T23:52:57Z  external  ...                    Bend, OR          Siemens
+
+[20 rows x 5 columns]
+   publication date  job type  ...                city       country
+0        2023-05-31  external  ...  Środa Wielkopolska        Poland
+1        2023-09-19  external  ...          Providence            RI
+2        2023-10-03  external  ...       San Francisco            CA
+3        2023-09-21  external  ...               Tokyo         Japan
+4        2023-10-25  external  ...               Wayne            PA
+5        2023-04-21  external  ...              Szeged       Hungary
+6        2023-11-01  external  ...        Gloversville            NY
+7        2023-10-11  external  ...           Charlotte            NC
+8        2023-10-19  external  ...   Flexible / Remote           NaN
+9        2023-03-30  external  ...             Beijing         China
+10       2023-11-01  external  ...    West Valley City            UT
+11       2023-04-29  external  ...            Bellevue            WA
+12       2023-03-23  external  ...              Luzern   Switzerland
+13       2023-06-27  external  ...              Athens        Greece
+14       2023-09-22  external  ...           Rochester            MA
+15       2023-06-09  external  ...             Netanya        Israel
+16       2023-04-17  external  ...            Erlangen       Germany
+17       2023-01-04  external  ...              Braşov       Romania
+18       2023-10-11  external  ...             Bothell            WA
+19       2023-03-09  external  ...                Bend            OR
+
+[20 rows x 6 columns]
+datafrme saved to local file called jobs.csv
+uploading to AWS S3...
+File uploading Done!
+File uploading Done!
+PROGRAM SUCCEEDED

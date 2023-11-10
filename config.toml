@@ -1,0 +1,9 @@
+[api]
+url='https://www.themuse.com/api/public/jobs?page=50'
+
+[aws]
+bucket='week3-mini-pyproject'
+folder='input/'
+
+[run]
+py_script="run.py"
